@@ -1,5 +1,5 @@
-// take the input from the user
-const number = prompt('Enter the number: ');
+function greet() {
+    console.log("Hello, World!");
+}
 
-const result = Math.sqrt(number);
-console.log(`The square root of ${number} is ${result}`);
+greet();
